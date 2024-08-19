@@ -1,10 +1,8 @@
 import React, { Component } from "react";
 import CardList from "../components/CardList";
 import SearchBox from "../components/SearchBox";
-import { render } from "@testing-library/react";
 import Scroll from "../components/Scroll";
 import "./App.css";
-import { robots } from "../robots";
 
 class App extends Component {
   constructor() {
